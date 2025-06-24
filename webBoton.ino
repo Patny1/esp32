@@ -4,8 +4,8 @@
   #include <ESP8266WiFi.h>
 #endif
 
-const char* ssid = "Naty";
-const char* password = "naty4321";
+const char* ssid = "xxxxx"; //Direccion de red
+const char* password = "xxxx"; //Contraseña
 
 WiFiServer server(80);
 String header;
