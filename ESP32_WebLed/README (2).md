@@ -101,6 +101,7 @@ Rutas utilizadas:
 /on
 /off
 ```
+<img width="661" height="526" alt="image" src="https://github.com/user-attachments/assets/a946aa0a-be02-4e9b-9249-446e53ce51b8" />
 
 ---
 
