@@ -1,5 +1,41 @@
-# esp32
-Pequeños ejemplo de código para explorar la comunicación de una tarjeta ESP32
+
+# 🔌 Control de LED con Servidor Web – ESP32
+
+Este proyecto implementa un **servidor web embebido en un ESP32**, permitiendo **encender y apagar un LED** desde cualquier navegador conectado a la misma red WiFi. Es una base ideal para proyectos IoT simples y escalables.
+
+---
+
+## 🚀 Características
+
+- 🌐 Servidor web en el puerto **80**
+- 💡 Control de un LED (GPIO 2 por defecto)
+- 📱 Interfaz web responsiva con botones ON/OFF
+- 🔁 Manejo de solicitudes **HTTP GET**
+- 🧩 Compatible con **ESP32** y **ESP8266**
+
+---
+
+## 🧰 Hardware Necesario
+
+- ESP32 DevKitC / NodeMCU ESP32  
+- LED integrado (GPIO 2) o LED externo  
+- Cable USB  
+- Red WiFi 2.4 GHz  
+
+---
+
+## 📡 Configuración WiFi
+
+Antes de subir el código, reemplaza estas líneas:
+
+```cpp
+const char* ssid = "TU_SSID";
+const char* password = "TU_PASSWORD";
+```
+
+## 
+
+
 
 Para la comunicación con el webserver se tienen dos opciones abrir directamente en el navegador web, o usando la aplicación
 
